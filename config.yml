@@ -26,35 +26,35 @@ steps:
 # Step 1: Setting up a repo to encourage collaboration
 - title: # Setting up your repo to encourage collaborators
   description: # A good repository will guide collaborators as they take their first steps in using and contributing to your project
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: push
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 2: Encourage feedback early
 # - title: # Encouraging early feedback to ensure a smooth onboarding
 #  description: # Codifying what to do when things don't work as expected can go a long way to creating a positive onboarding experience even when things go wrong
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  event: issues
+#  actions: opened
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 3: Automate responses to feedback
 # - title: # Automate responses to feedback
 #  description: # Automation can help reinforce positive responses to giving feedback and set expectations for next steps
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  event: workflow_run
+#  actions: completed
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 4: Create a path to contribution
 # - title: # Create a path to contribution
 #  description: # Making it easy to contribute changes will pay dividends later
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+#  event: fork
 #  actions: # a list of the actions that will occur when the step is triggered by an event
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 5: Recognize contributors
 # - title: # Recognize contributors for their efforts
 #  description: # Automation around forks, pull requests and merges to recognize the efforts of contributors
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
+#  event: pull_request
+#  actions: opened
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
