@@ -7,8 +7,8 @@ description: # This course will cover some of the best practices for Github when
 # This will be used when the repository is crated for each individual learner
 
 template:
-  name: # the name of the repository when it is created for the learner
-  repo: # the name of the template repository from which to clone for the learner
+  name: Basic Repo    # the name of the repository when it is created for the learner
+  repo: basic-template    # the name of the template repository from which to clone for the learner
 
 # `before` block
 # Actions to take place after the learner registers, but before they start interacting with their repo
