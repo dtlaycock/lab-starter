@@ -1,20 +1,27 @@
-# Title
+# Encouraging contributions
 
-This is the paragraph to would describe the concept. It may link to other resources, or include images. Try to avoid _too_ much information and _too_ many external links. The purpose of these paragraphs is to give the user the information they need to complete the activity, understand what they're doing, and understand why they're doing it.
+The Readme file represents the first interaction most users are going to have with your repository. Let's make sure it is a good one!
 
 ### More detail 
 
-If there are concepts that should be described separately, they might belong in a subparagraph section like this one.
+What do you need to know when you first encounter a repository? We've been immersed in our own context for so long it can be hard to imagine what it is like when coming across it with little or no context.
 
-## Step X: Description
+Let's structure the readme to give context.
+* Purpose - what is the goal of this project, why did we create it
+* Overview - at a high level how does it work? Are there depedencies that we assume are in place
+* Getting started - using the simplest possible example let's get people up and running
+* Help - what to do if things go wrong?
 
-Here, we'll describe generally what the user is about to do.
+## Step 1: Creating a welcoming first iteration
 
-### :keyboard: Activity: Specific description
+Let's setup our readme to make a good first impression!
 
-1. Step 1 in short sentence
-2. Step 2 in short sentence
-3. Step 3 in short sentence
+### :keyboard: Activity: Create the readme and commit to this branch
+
+1. Create purpose, overview, getting started and help sections.
+2. Add some details based on your own project. 
+3. In the help section let's prompts people to create an issue if they get stuck.
+4. Commit and push the readme to this branch.
 
 <hr>
 <h3 align="center">Watch below this comment for my response</h3>
