@@ -33,8 +33,8 @@ steps:
 # Step 2: Encourage feedback early
 # - title: # Encouraging early feedback to ensure a smooth onboarding
 #  description: # Codifying what to do when things don't work as expected can go a long way to creating a positive onboarding experience even when things go wrong
-#  event: issues
-#  actions: opened
+#  event: issues.opened
+#  actions: # opened
 #  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 3: Automate responses to feedback
